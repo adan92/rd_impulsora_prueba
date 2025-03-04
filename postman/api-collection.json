@@ -25,9 +25,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/token/",
+					"raw": "{{base_url}}/api/token/",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -58,7 +58,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDU1NTUyLCJpYXQiOjE3NDEwNTUyNTIsImp0aSI6ImFjOGMyODRlMmI1MDRiMzM4OTg5YmU2MmVhYmE0MWNkIiwidXNlcl9pZCI6MX0.XQ5ZH4NpT2lmKSfy-hFnbJXd3_WMj6_graJNMIYiIks",
+							"value": "{{access_token}}",
 							"type": "string"
 						}
 					]
@@ -75,9 +75,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/gastos/",
+					"raw": "{{base_url}}/api/gastos/",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -96,7 +96,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDUxMTg5LCJpYXQiOjE3NDEwNTA4ODksImp0aSI6IjQ1ODk5NDA0YzQ5MzRkOGNhYjA4OWUzZTE2ZTcyNGI4IiwidXNlcl9pZCI6MX0.TOEeWq2OBbhRIS9ghvMnKwdGUPFlJf--wByRKRRtkPc",
+							"value": "{{access_token}}",
 							"type": "string"
 						}
 					]
@@ -104,9 +104,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/api/gastos",
+					"raw": "{{base_url}}/api/gastos",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -124,7 +124,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDUxMTg5LCJpYXQiOjE3NDEwNTA4ODksImp0aSI6IjQ1ODk5NDA0YzQ5MzRkOGNhYjA4OWUzZTE2ZTcyNGI4IiwidXNlcl9pZCI6MX0.TOEeWq2OBbhRIS9ghvMnKwdGUPFlJf--wByRKRRtkPc",
+							"value": "{{access_token}}",
 							"type": "string"
 						}
 					]
@@ -132,9 +132,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/api/gastos/1",
+					"raw": "{{base_url}}/api/gastos/1",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -153,7 +153,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDUxMTg5LCJpYXQiOjE3NDEwNTA4ODksImp0aSI6IjQ1ODk5NDA0YzQ5MzRkOGNhYjA4OWUzZTE2ZTcyNGI4IiwidXNlcl9pZCI6MX0.TOEeWq2OBbhRIS9ghvMnKwdGUPFlJf--wByRKRRtkPc",
+							"value": "{{access_token}}",
 							"type": "string"
 						}
 					]
@@ -170,9 +170,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/gastos/1/",
+					"raw": "{{base_url}}/api/gastos/1/",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -192,7 +192,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDUxMTg5LCJpYXQiOjE3NDEwNTA4ODksImp0aSI6IjQ1ODk5NDA0YzQ5MzRkOGNhYjA4OWUzZTE2ZTcyNGI4IiwidXNlcl9pZCI6MX0.TOEeWq2OBbhRIS9ghvMnKwdGUPFlJf--wByRKRRtkPc",
+							"value": "{{access_token}}",
 							"type": "string"
 						}
 					]
@@ -200,9 +200,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/api/gastos/1/",
+					"raw": "{{base_url}}/api/gastos/1/",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -215,7 +215,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Registrar usuario",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -229,9 +229,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/register/",
+					"raw": "{{base_url}}/api/register/",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
@@ -244,11 +244,8 @@
 		},
 		{
 			"name": "Refrescar token",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -260,9 +257,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/api/token/refresh/",
+					"raw": "{{base_url}}/api/token/refresh/",
 					"host": [
-						"{{url}}"
+						"{{base_url}}"
 					],
 					"path": [
 						"api",
