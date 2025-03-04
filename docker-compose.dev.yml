@@ -1,0 +1,6 @@
+services:
+  web:
+    environment:
+      SECRET_KEY: 'django-insecure-=uyenee+4h!v02i!!q3=_w833c_(p&i+9rrds^5xndept-4+$9'
+      DEBUG: 'False'
+      ALLOWED_HOSTS: '*'
